@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>MoMo Web App</title>
+</head>
+
+<body>
+    <div id="login-id" class="login-class">
+        <h2 class="justify-center">WELCOME TO MOMO WEB APP</h2>
+        <div id="login-box" class="login-class2">
+            <h3>LOGIN</h3>
+            <input class="email-box" type="text" class="box-control" placeholder="email">
+            <br>
+            <br>
+            <input class="password-box" type="password" class="box-control" placeholder="password">
+            <br>
+            <br>
+            <button  class="button-box" id="submit-btn" class="login-btn">ENTER</button>
+        </div>
+        
+    </div>
+
+    <div id="dashboard" class="dashboard-class">
+        <div class="features"> 
+            <div class="justify-deposit">
+                <h3>Deposit</h3>
+                <p class="depo">
+                    Rwf <span id="deposit">0</span>
+                </p>
+            </div>
+
+            <div class="justify-balance">
+                <h3>Balance</h3>
+                <p class="depo">
+                    Rwf <span id="balance">5000</span>
+                </p>
+            </div>
+
+
+            <div class="justify-withdraw">
+                <h3>Withdraw</h3>
+                <p class="depo">
+                    Rwf <span id="withdraw">0</span>
+                </p>
+            </div>
+           
+        </div>
+
+        <div id="input-section" class="justify-content">
+            <div class="second-deposit">
+                <h4>Incoming Transaction</h4>
+                <input type="number" class="form-controle" id="input-deposit" placeholder="Deposit">
+                <br>
+                <input  type="text" id="sender-name" placeholder="sender name">
+                <br>
+                <button class="login-btn" id="deposit-btn">Deposit</button>
+            </div>
+
+            <div class="second-withdraw">
+                <h4>Outgoing Transaction</h4>
+                <input type="number" class="form-controle" id="input-withdraw" placeholder="Withdraw">
+                <br>
+                <br>
+                <button class="login-btn" id="withdraw-btn">Withdraw</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./indexx.js"></script>
+</body>
+</html>
