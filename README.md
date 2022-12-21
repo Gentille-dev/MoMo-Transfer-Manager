@@ -1,2 +1,2 @@
-# MoMo-Transfer-Manager
+# new-mom-app
 Simple Banking System
